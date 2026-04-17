@@ -48,7 +48,7 @@ export const hero = {
   description:
     "Volcanoes, rainforests, pristine beaches and unforgettable sunsets. Let local experts guide you through the most breathtaking corners of our paradise.",
   cta: { primary: "Book Your Adventure", secondary: "Explore Tours" },
-  image: heroImg.src,
+  image: volcanoImg.src,
   stats: [
     { value: "15+", label: "Years Experience" },
     { value: "10K+", label: "Happy Travelers" },

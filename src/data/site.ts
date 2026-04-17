@@ -348,7 +348,7 @@ export const footer = {
     address: "Guanacaste, Costa Rica",
     phone: "+506 7252-8386",
     phone2: "+506 6390-2506",
-    email: "info@venegastours.com",
+    email: "ovenegas@icloud.com",
   },
   hours: "Open Daily: 7:00 AM – 8:00 PM",
   socials: [

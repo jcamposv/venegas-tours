@@ -113,7 +113,7 @@ export const tours = {
       subtitle: "Tenorio National Park",
       category: "Rainforest",
       duration: "Full Day · 9 hrs",
-      price: 125,
+      price: 190,
       description: "Discover the mystical turquoise river of Tenorio National Park. Hike through pristine rainforest to reach the iconic waterfall — one of the most photographed spots in Costa Rica.",
       highlights: ["Guided rainforest hike", "The famous blue waterfall", "Blue lagoon viewpoint", "Wildlife spotting (sloths, monkeys)"],
       image: rioCelesteImg.src,

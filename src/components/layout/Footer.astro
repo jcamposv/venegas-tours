@@ -37,6 +37,7 @@ import { siteConfig, footer } from "../../data/site";
         <address class="not-italic space-y-2.5 text-sm">
           <p class="whitespace-pre-line">{footer.contact.address}</p>
           <p><a href={`tel:${footer.contact.phone.replace(/\D/g, "")}`} class="hover:text-white transition-colors">{footer.contact.phone}</a></p>
+          <p><a href={`tel:${footer.contact.phone2.replace(/\D/g, "")}`} class="hover:text-white transition-colors">{footer.contact.phone2}</a></p>
           <p><a href={`mailto:${footer.contact.email}`} class="hover:text-white transition-colors">{footer.contact.email}</a></p>
           <p class="text-white/40 text-xs">{footer.hours}</p>
         </address>

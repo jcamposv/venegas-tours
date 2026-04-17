@@ -1,0 +1,67 @@
+---
+const parks = [
+  { name: "Manuel Antonio", description: "Famous for its pristine beaches and accessible trails through tropical forest." },
+  { name: "Tortuguero", description: "A vital nesting site for sea turtles along Costa Rica's Caribbean coast." },
+  { name: "Corcovado", description: "Considered one of the most biodiverse places on Earth by National Geographic." },
+  { name: "Volcán Arenal", description: "Iconic volcanic cone with hot springs and incredible geothermal activity." },
+  { name: "Volcán Poás", description: "Home to one of the largest volcanic craters in the world." },
+  { name: "Santa Rosa", description: "A key ecological and historical park in Guanacaste province." },
+  { name: "Rincón de la Vieja", description: "Volcanic wonderland with mud pools, waterfalls and tropical dry forest." },
+  { name: "Marino Ballena", description: "Famous for its whale-tail shaped sandbar and humpback whale sightings." },
+  { name: "Chirripó", description: "Home to the highest peak in Costa Rica at 3,820 meters above sea level." },
+  { name: "Cahuita", description: "Protects vibrant coral reefs and stunning Caribbean beaches." },
+];
+---
+
+<section class="py-20 lg:py-28 bg-cream/50" id="discover">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-14" data-animate>
+      <span class="inline-flex items-center gap-2 bg-jungle/10 text-jungle text-xs font-semibold px-4 py-1.5 rounded-full mb-4 uppercase tracking-wider">
+        Why Costa Rica
+      </span>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-charcoal tracking-tight leading-tight">
+        Discover Costa Rica
+      </h2>
+      <p class="mt-4 text-charcoal/60 text-lg font-body leading-relaxed">
+        Costa Rica is home to over 30 national parks and protected areas covering approximately 25% of the country. With incredible biodiversity, stunning volcanoes, pristine beaches and lush rainforests, it's one of the most extraordinary destinations on the planet.
+      </p>
+    </div>
+
+    <!-- Stats -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto mb-14" data-animate>
+      <div class="text-center">
+        <span class="block text-3xl lg:text-4xl font-extrabold text-jungle">30+</span>
+        <span class="text-charcoal/50 text-xs uppercase tracking-wider mt-1 block">National Parks</span>
+      </div>
+      <div class="text-center">
+        <span class="block text-3xl lg:text-4xl font-extrabold text-jungle">25%</span>
+        <span class="text-charcoal/50 text-xs uppercase tracking-wider mt-1 block">Protected Land</span>
+      </div>
+      <div class="text-center">
+        <span class="block text-3xl lg:text-4xl font-extrabold text-jungle">900+</span>
+        <span class="text-charcoal/50 text-xs uppercase tracking-wider mt-1 block">Bird Species</span>
+      </div>
+      <div class="text-center">
+        <span class="block text-3xl lg:text-4xl font-extrabold text-jungle">5%</span>
+        <span class="text-charcoal/50 text-xs uppercase tracking-wider mt-1 block">World's Biodiversity</span>
+      </div>
+    </div>
+
+    <!-- Parks grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4" data-animate>
+      {parks.map((park, i) => (
+        <div class="bg-white rounded-2xl p-5 border border-charcoal/5 hover:border-jungle/20 hover:shadow-lg hover:shadow-jungle/5 transition-all">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-jungle/10 text-jungle text-xs font-bold shrink-0">{String(i + 1).padStart(2, "0")}</span>
+            <h3 class="font-bold text-charcoal text-sm leading-tight">{park.name}</h3>
+          </div>
+          <p class="text-charcoal/50 text-xs leading-relaxed font-body">{park.description}</p>
+        </div>
+      ))}
+    </div>
+
+    <p class="text-center text-charcoal/40 text-sm mt-8 font-body" data-animate>
+      Other notable parks include Braulio Carrillo, Barbilla, Barra Honda, Carara, Guanacaste, Los Quetzales, Piedras Blancas, Volcán Irazú, Volcán Tenorio and Volcán Turrialba.
+    </p>
+  </div>
+</section>

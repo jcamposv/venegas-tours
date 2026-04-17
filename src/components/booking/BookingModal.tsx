@@ -3,7 +3,7 @@ import { openWhatsApp } from "../../lib/whatsapp";
 import { openGoogleCalendar, createCalendarEvent } from "../../lib/google-calendar";
 
 interface Props { whatsappNumber: string; whatsappNumber2?: string; googleCalendarEnabled?: boolean; clinicName?: string; clinicAddress?: string; }
-const SERVICES = ["La Leona Waterfall Tour", "Arenal Volcano Tour", "Miravalles Volcano Tour", "Rio Celeste Tour", "Rainforest Hanging Bridges", "Birdwatching Tour", "Bijagua Nature & Adventure", "Tárcoles River Crocodile Tour", "Sunset Beach Tour", "Guaitil Cultural Tour", "Sunset & Dinner Las Catalinas", "Sunset Sailing", "Catamaran Full Day", "Custom Itinerary"];
+const SERVICES = ["La Leona Waterfall Tour", "Arenal Volcano Tour", "Miravalles Volcano Tour", "Rio Celeste Tour", "Rainforest Hanging Bridges", "Birdwatching Tour", "Bijagua Nature & Adventure", "Tárcoles River Crocodile Tour", "Sunset Beach Tour", "Guaitil Cultural Tour", "Palo Verde Wildlife Safari", "Sunset & Dinner Las Catalinas", "Sunset Sailing", "Catamaran Full Day", "Custom Itinerary"];
 const TIMES = ["07:00","08:00","09:00","10:00","11:00","13:00","14:00","15:00","16:00"];
 
 export default function BookingModal({ whatsappNumber, whatsappNumber2, googleCalendarEnabled = false, clinicName = "Venegas Costa Rica Tours", clinicAddress = "" }: Props) {

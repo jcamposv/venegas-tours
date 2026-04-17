@@ -11,6 +11,7 @@ import sunsetBeachImg from "../assets/images/sunset-beach.jpg";
 import rocaBrujaImg from "../assets/images/roca-bruja.jpg";
 import sunsetDinnerImg from "../assets/images/sunset-dinner.jpg";
 import playaAvellanasImg from "../assets/images/playa-avellanas.jpg";
+import paloVerdeImg from "../assets/images/palo-verde.jpg";
 import guaitilImg from "../assets/images/guaitil.jpg";
 import playaConchalImg from "../assets/images/playa-conchal.jpg";
 import playaFlamingoImg from "../assets/images/playa-flamingo.jpg";
@@ -183,6 +184,17 @@ export const tours = {
       highlights: ["Guided cultural experience", "Visit local pottery workshops", "Lunch & beverages included", "Optional transportation: $230 USD"],
       image: guaitilImg.src,
     },
+    {
+      index: "11",
+      title: "Palo Verde Wildlife Boat Safari",
+      subtitle: "Palo Verde National Park · Guanacaste",
+      category: "Wildlife",
+      duration: "Full Day",
+      price: 190,
+      description: "Explore the incredible biodiversity of Palo Verde National Park with a boat safari along the Tempisque River. Spot crocodiles, monkeys, iguanas and hundreds of bird species in one of Costa Rica's most important wildlife reserves. Perfect for birdwatching and wildlife photography. Transportation available for $230 USD.",
+      highlights: ["Guided boat safari on Tempisque River", "Professional naturalist guide", "Wildlife: crocodiles, birds, monkeys", "Optional transportation: $230 USD & lunch"],
+      image: paloVerdeImg.src,
+    },
   ],
 };
 
@@ -329,7 +341,7 @@ export const ctaSection = {
 
 // ── Footer ──
 export const footer = {
-  tours: ["La Leona Waterfall", "Arenal Volcano", "Miravalles Volcano", "Rio Celeste", "Hanging Bridges", "Birdwatching", "Bijagua", "Tárcoles Crocodile", "Sunset Beach", "Guaitil Cultural"],
+  tours: ["La Leona Waterfall", "Arenal Volcano", "Miravalles Volcano", "Rio Celeste", "Hanging Bridges", "Birdwatching", "Bijagua", "Tárcoles Crocodile", "Sunset Beach", "Guaitil Cultural", "Palo Verde Safari"],
   beaches: ["Conchal", "Flamingo", "Tamarindo", "Playa Grande", "Las Catalinas", "Roca Bruja", "Avellanas"],
   experiences: ["Sunset Sailing", "Sunset & Dinner Las Catalinas", "Catamaran Full Day"],
   contact: {

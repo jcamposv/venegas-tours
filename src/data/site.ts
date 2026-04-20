@@ -45,12 +45,13 @@ export const booking = {
 };
 
 export const navigation = [
-  { label: "Home", href: "#top" },
-  { label: "Tours", href: "#tours" },
-  { label: "Beaches", href: "#beaches" },
-  { label: "Experiences", href: "#experiences" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/#top" },
+  { label: "Tours", href: "/#tours" },
+  { label: "Beaches", href: "/#beaches" },
+  { label: "Experiences", href: "/#experiences" },
+  { label: "Gallery", href: "/gallery" },
+  { label: "About", href: "/#about" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export const hero = {

@@ -24,6 +24,7 @@ import romanticDinnerImg from "../assets/images/romantic-dinner.jpg";
 import catamaranImg from "../assets/images/catamaran.jpg";
 import buenaVistaImg from "../assets/images/buena-vista.jpg";
 import borinquenImg from "../assets/images/borinquen.jpg";
+import ecoAdventureImg from "../assets/images/eco-adventure.jpg";
 
 export const siteConfig = {
   name: "Venegas Costa Rica Tours",
@@ -220,6 +221,17 @@ export const tours = {
       highlights: ["Horseback riding to waterfalls", "Canopy zipline tour", "Hot springs, volcanic mud baths & pool", "Lunch included"],
       image: borinquenImg.src,
     },
+    {
+      index: "14",
+      title: "Eco Adventure 12-in-1 · Rincón de la Vieja",
+      subtitle: "Rincón de la Vieja · Guanacaste",
+      category: "Adventure",
+      duration: "Full Day · 5-6 hrs",
+      price: 250,
+      description: "The most complete adventure in Costa Rica — 12 activities in one unforgettable day near the Rincón de la Vieja Volcano. Canopy ziplines, hanging bridges, jungle water slide, horseback riding, waterfall visit, hot springs, volcanic mud bath, sauna, tractor tour, traditional sugar cane mill, indigenous pottery workshop, and a Costa Rican buffet lunch. Children: $145 USD. Private transportation: $250 USD.",
+      highlights: ["12 activities in one day", "Canopy, horseback riding & hanging bridges", "Hot springs, mud bath & sauna", "Buffet lunch & bilingual guide included"],
+      image: ecoAdventureImg.src,
+    },
   ],
 };
 
@@ -366,7 +378,7 @@ export const ctaSection = {
 
 // ── Footer ──
 export const footer = {
-  tours: ["La Leona Waterfall", "Arenal Volcano", "Miravalles Volcano", "Rio Celeste", "Hanging Bridges", "Birdwatching", "Bijagua", "Tárcoles Crocodile", "Sunset Beach", "Guaitil Cultural", "Palo Verde Safari", "Buena Vista & Rincón de la Vieja", "Borinquen Hot Springs & Canopy"],
+  tours: ["La Leona Waterfall", "Arenal Volcano", "Miravalles Volcano", "Rio Celeste", "Hanging Bridges", "Birdwatching", "Bijagua", "Tárcoles Crocodile", "Sunset Beach", "Guaitil Cultural", "Palo Verde Safari", "Buena Vista & Rincón de la Vieja", "Borinquen Hot Springs & Canopy", "Eco Adventure 12-in-1"],
   beaches: ["Conchal", "Flamingo", "Tamarindo", "Playa Grande", "Las Catalinas", "Roca Bruja", "Avellanas"],
   experiences: ["Sunset Sailing", "Sunset & Dinner Las Catalinas", "Catamaran Full Day"],
   contact: {

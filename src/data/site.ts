@@ -22,6 +22,8 @@ import sunsetImg from "../assets/images/sunset.jpg";
 import aboutImg from "../assets/images/about-waterfall.jpg";
 import romanticDinnerImg from "../assets/images/romantic-dinner.jpg";
 import catamaranImg from "../assets/images/catamaran.jpg";
+import buenaVistaImg from "../assets/images/buena-vista.jpg";
+import borinquenImg from "../assets/images/borinquen.jpg";
 
 export const siteConfig = {
   name: "Venegas Costa Rica Tours",
@@ -81,8 +83,8 @@ export const tours = {
       category: "Waterfall",
       duration: "Half Day · 2 hrs",
       price: 95,
-      description: "Experience the breathtaking beauty of La Leona Waterfall near the Rincón de la Vieja Volcano. Hike through tropical forest trails, rivers and canyons to reach stunning turquoise waters. Walk through caves, swim between rocks and enjoy one of the most unique hikes in the region.",
-      highlights: ["Certified local guide", "Guided hike through rivers, caves & canyon", "Turquoise waterfall swimming", "Optional river tubing & lunch add-ons"],
+      description: "Experience the breathtaking beauty of La Leona Waterfall near the Rincón de la Vieja Volcano. Hike through tropical forest trails, rivers and canyons to reach stunning turquoise waters. Walk through caves, swim between rocks and enjoy one of the most unique hikes in the region. Includes tubing tour and lunch.",
+      highlights: ["Certified local guide", "Guided hike through rivers, caves & canyon", "Turquoise waterfall swimming", "River tubing tour included", "Lunch included"],
       image: laLeonaImg.src,
     },
     {
@@ -124,9 +126,9 @@ export const tours = {
       subtitle: "Monteverde Cloud Forest",
       category: "Nature",
       duration: "Half Day · 4-5 hrs",
-      price: 75,
-      description: "Walk above the rainforest canopy on suspended bridges. Spot toucans, sloths and monkeys in their natural habitat with a certified naturalist guide who knows every trail by heart.",
-      highlights: ["6 hanging bridges experience", "Canopy-level wildlife viewing", "Professional naturalist guide", "Best photography stops"],
+      price: 250,
+      description: "Walk above the rainforest canopy on suspended bridges. Spot toucans, sloths and monkeys in their natural habitat with a certified naturalist guide who knows every trail by heart. Includes lunch and drinks.",
+      highlights: ["6 hanging bridges experience", "Canopy-level wildlife viewing", "Professional naturalist guide", "Best photography stops", "Lunch & drinks included"],
       image: monteverdeImg.src,
     },
     {
@@ -194,6 +196,28 @@ export const tours = {
       description: "Explore the incredible biodiversity of Palo Verde National Park with a boat safari along the Tempisque River. Spot crocodiles, monkeys, iguanas and hundreds of bird species in one of Costa Rica's most important wildlife reserves. Perfect for birdwatching and wildlife photography. Transportation available for $230 USD.",
       highlights: ["Guided boat safari on Tempisque River", "Professional naturalist guide", "Wildlife: crocodiles, birds, monkeys", "Optional transportation: $230 USD & lunch"],
       image: paloVerdeImg.src,
+    },
+    {
+      index: "12",
+      title: "Buena Vista & Rincón de la Vieja Volcano",
+      subtitle: "Buena Vista · Rincón de la Vieja, Guanacaste",
+      category: "Volcano",
+      duration: "Half Day",
+      price: 250,
+      description: "Enjoy an exclusive private tour to Buena Vista with stunning views of the majestic Rincón de la Vieja Volcano. This experience combines breathtaking landscapes, fresh mountain air, and the beauty of Guanacaste's tropical forest. Perfect for a personalized and relaxed adventure surrounded by nature and volcano views. Optional transportation for $350 USD.",
+      highlights: ["Private guided experience", "Scenic viewpoints of Rincón de la Vieja Volcano", "Time to relax and explore nature", "Bottled water included"],
+      image: buenaVistaImg.src,
+    },
+    {
+      index: "13",
+      title: "Borinquen Hot Springs, Horseback & Canopy",
+      subtitle: "Borinquen Mountain Resort · Rincón de la Vieja",
+      category: "Adventure",
+      duration: "Full Day",
+      price: 230,
+      description: "Enjoy an unforgettable private experience at Borinquen Mountain Resort near the Rincón de la Vieja Volcano. Ride through scenic trails on horseback, explore beautiful waterfalls, fly through the treetops on a thrilling canopy tour, and unwind in natural hot springs surrounded by lush forest. Lunch included. Children under 11: $170 USD. Private transportation available.",
+      highlights: ["Horseback riding to waterfalls", "Canopy zipline tour", "Hot springs, volcanic mud baths & pool", "Lunch included"],
+      image: borinquenImg.src,
     },
   ],
 };
@@ -341,7 +365,7 @@ export const ctaSection = {
 
 // ── Footer ──
 export const footer = {
-  tours: ["La Leona Waterfall", "Arenal Volcano", "Miravalles Volcano", "Rio Celeste", "Hanging Bridges", "Birdwatching", "Bijagua", "Tárcoles Crocodile", "Sunset Beach", "Guaitil Cultural", "Palo Verde Safari"],
+  tours: ["La Leona Waterfall", "Arenal Volcano", "Miravalles Volcano", "Rio Celeste", "Hanging Bridges", "Birdwatching", "Bijagua", "Tárcoles Crocodile", "Sunset Beach", "Guaitil Cultural", "Palo Verde Safari", "Buena Vista & Rincón de la Vieja", "Borinquen Hot Springs & Canopy"],
   beaches: ["Conchal", "Flamingo", "Tamarindo", "Playa Grande", "Las Catalinas", "Roca Bruja", "Avellanas"],
   experiences: ["Sunset Sailing", "Sunset & Dinner Las Catalinas", "Catamaran Full Day"],
   contact: {

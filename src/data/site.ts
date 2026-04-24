@@ -1,5 +1,6 @@
 import heroImg from "../assets/images/hero.jpg";
 import volcanoImg from "../assets/images/volcano.jpg";
+import arenalImg from "../assets/images/arenal.png";
 import rioCelesteImg from "../assets/images/rio-celeste.jpg";
 import miravallesImg from "../assets/images/miravalles.jpg";
 import monteverdeImg from "../assets/images/monteverde.jpg";
@@ -65,7 +66,7 @@ export const hero = {
   description:
     "Volcanoes, rainforests, pristine beaches and unforgettable sunsets. Let local experts guide you through the most breathtaking corners of our paradise.",
   cta: { primary: "Book Your Adventure", secondary: "Explore Tours" },
-  image: volcanoImg.src,
+  image: arenalImg.src,
   stats: [
     { value: "15+", label: "Years Experience" },
     { value: "300+", label: "Happy Travelers" },
